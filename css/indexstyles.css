@@ -1,0 +1,78 @@
+#mainwindow {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/Profile\ Background.JPG") top right no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+  }
+  
+  @media (min-width: 992px) {
+    #mainwindow {
+      padding-left: 160px;
+    }
+  }
+  
+  #mainwindow:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #mainwindow h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #45505b;
+  }
+  
+  #mainwindow p {
+    color: #45505b;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #mainwindow p span {
+    color: #3C0064;
+    letter-spacing: 1px;
+  }
+  
+  #mainwindow .social-links {
+    margin-top: 30px;
+  }
+  
+  #mainwindow .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  
+  #mainwindow .social-links a:hover {
+    color: #3C0064;
+  }
+  
+  @media (max-width: 992px) {
+    #mainwindow {
+      text-align: center;
+    }
+  
+    #mainwindow h1 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  
+    #mainwindow p {
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }

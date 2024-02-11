@@ -1,0 +1,22 @@
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #7112B0;
+}
+
+#Skillsdiv ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Skillsdiv li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #7112B0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
